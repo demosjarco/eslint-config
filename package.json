@@ -1,0 +1,28 @@
+{
+	"name": "@demosjarco/eslint-config",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "My personal ESLint config",
+	"main": "eslint.config.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/demosjarco/eslint-config.git"
+	},
+	"author": "DemosJarco",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/demosjarco/eslint-config/issues"
+	},
+	"homepage": "https://github.com/demosjarco/eslint-config#readme",
+	"publishConfig": {
+		"access": "public"
+	},
+	"prettier": "@demosjarco/prettier-config",
+	"dependencies": {
+		"eslint": "^8.47.0"
+	},
+	"devDependencies": {
+		"@demosjarco/prettier-config": "^1.0.0",
+		"prettier": "^3.0.1"
+	}
+}
