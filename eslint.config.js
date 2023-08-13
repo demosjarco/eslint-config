@@ -17,6 +17,7 @@ export default [
 			reportUnusedDisableDirectives: true,
 		},
 		plugins: {},
+		// https://ota-meshi.github.io/eslint-plugin-yml/rules/
 		rules: {},
 	},
 ];
