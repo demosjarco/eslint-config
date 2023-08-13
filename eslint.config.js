@@ -1,3 +1,5 @@
+import globals from 'globals';
+
 export default [
 	{
 		files: [],
@@ -5,6 +7,10 @@ export default [
 		languageOptions: {
 			ecmaVersion: 'latest',
 			sourceType: 'module',
+			globals: {
+				...globals.serviceworker,
+				...globals.node,
+			},
 		},
 		linterOptions: {
 			noInlineConfig: true,
