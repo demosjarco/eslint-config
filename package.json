@@ -1,7 +1,7 @@
 {
 	"name": "@demosjarco/eslint-config",
 	"type": "module",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"description": "My personal ESLint config",
 	"main": "eslint.config.js",
 	"repository": {
