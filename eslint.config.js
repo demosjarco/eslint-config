@@ -1,5 +1,6 @@
 import globals from 'globals';
-
+// https://eslint.org/docs/latest/use/configure/configuration-files-new
+// https://github.com/autosec-network/eslint-config/blob/main/.eslintrc.js
 export default [
 	{
 		files: [],
