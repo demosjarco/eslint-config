@@ -1,0 +1,20 @@
+{
+	"name": "@demosjarco/eslint-config-node",
+	"type": "module",
+	"version": "0.1.0",
+	"main": ".eslintrc.cjs",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/demosjarco/eslint-config.git"
+	},
+	"author": "DemosJarco",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/demosjarco/eslint-config/issues"
+	},
+	"homepage": "https://github.com/demosjarco/eslint-config#readme",
+	"publishConfig": {
+		"access": "public"
+	},
+	"prettier": "@demosjarco/prettier-config"
+}
