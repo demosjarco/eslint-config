@@ -1,9 +1,7 @@
 {
 	"name": "@demosjarco/eslint-config",
 	"type": "module",
-	"version": "0.1.0",
-	"description": "My personal ESLint config",
-	"main": "eslint.config.js",
+	"main": ".eslintrc.cjs",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/demosjarco/eslint-config.git"
@@ -14,13 +12,13 @@
 		"url": "https://github.com/demosjarco/eslint-config/issues"
 	},
 	"homepage": "https://github.com/demosjarco/eslint-config#readme",
-	"publishConfig": {
-		"access": "public"
-	},
+	"workspaces": [
+		"cfworkers",
+		"node"
+	],
 	"prettier": "@demosjarco/prettier-config",
 	"dependencies": {
-		"eslint": "^8.47.0",
-		"globals": "^13.21.0"
+		"eslint": "^8.47.0"
 	},
 	"devDependencies": {
 		"@demosjarco/prettier-config": "^1.0.0",
