@@ -18,7 +18,7 @@
 	],
 	"prettier": "@demosjarco/prettier-config",
 	"dependencies": {
-		"eslint": "^8.47.0"
+		"eslint": "^8.53.0"
 	},
 	"devDependencies": {
 		"@demosjarco/prettier-config": "^1.0.0",
