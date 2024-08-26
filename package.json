@@ -1,5 +1,6 @@
 {
 	"name": "@demosjarco/eslint-config",
+	"version": "0.0.0",
 	"type": "module",
 	"main": "eslint.config.mjs",
 	"repository": {
