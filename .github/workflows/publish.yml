@@ -10,6 +10,10 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: ${{ github.base_ref || github.ref_name }}
+      # url: ${{ github.server_url }}/${{ github.repository }}/security/code-scanning?query=is%3Aopen+tool%3AScorecard
+      url: https://www.npmjs.com/package/@${{ github.repository }}
     permissions:
       id-token: write
     steps:
