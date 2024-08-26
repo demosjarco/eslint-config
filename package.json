@@ -1,7 +1,7 @@
 {
 	"name": "@demosjarco/eslint-config",
 	"type": "module",
-	"main": ".eslintrc.cjs",
+	"main": "eslint.config.mjs",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/demosjarco/eslint-config.git"
@@ -12,16 +12,25 @@
 		"url": "https://github.com/demosjarco/eslint-config/issues"
 	},
 	"homepage": "https://github.com/demosjarco/eslint-config#readme",
-	"workspaces": [
-		"cfworkers",
-		"node"
-	],
+	"exports": {
+		".": "./eslint.config.mjs",
+		"./drizzle": "./specialized/drizzle/eslint.config.mjs",
+		"./qwik": "./specialized/qwik/eslint.config.mjs"
+	},
 	"prettier": "@demosjarco/prettier-config",
-	"dependencies": {
-		"eslint": "^8.47.0"
+	"peerDependencies": {
+		"eslint": ">= 9",
+		"eslint-config-prettier": ">= 9",
+		"eslint-plugin-drizzle": "*",
+		"eslint-plugin-qwik": "*",
+		"typescript-eslint": ">= 8"
 	},
 	"devDependencies": {
-		"@demosjarco/prettier-config": "^1.0.0",
-		"prettier": "^3.0.1"
+		"@demosjarco/prettier-config": "^1.0.1",
+		"@eslint/js": "^9.9.1",
+		"@types/eslint__js": "^8.42.3",
+		"@types/eslint-config-prettier": "^6.11.3",
+		"eslint": "^9.9.1",
+		"prettier": "^3.3.3"
 	}
 }
