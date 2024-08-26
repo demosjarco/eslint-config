@@ -18,6 +18,9 @@
 		"./drizzle": "./specialized/drizzle/eslint.config.mjs",
 		"./qwik": "./specialized/qwik/eslint.config.mjs"
 	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"prettier": "@demosjarco/prettier-config",
 	"peerDependencies": {
 		"eslint": ">= 9",
