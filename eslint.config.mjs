@@ -24,7 +24,7 @@ export default tseslint.config({
 		},
 	},
 	rules: {
-		'@typescript-eslint/consistent-type-imports': 'error',
+		'@typescript-eslint/consistent-type-imports': ['error', { disallowTypeAnnotations: false }],
 		'@typescript-eslint/no-confusing-void-expression': ['error', { ignoreArrowShorthand: true, ignoreVoidOperator: true }],
 		'@typescript-eslint/no-empty-object-type': ['error', { allowInterfaces: 'with-single-extends' }],
 		'@typescript-eslint/no-explicit-any': ['warn', { ignoreRestArgs: true }],
